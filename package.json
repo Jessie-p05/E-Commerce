@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -18,5 +19,8 @@
     "mongoose": "^6.0.5",
     "nodemon": "^2.0.12",
     "stripe": "^8.174.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0"
   }
 }
